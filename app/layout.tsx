@@ -7,9 +7,11 @@ import "./globals.css";
 import { SessionProvider } from "next-auth/react";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://chat.vercel.ai"),
+  metadataBase: new URL("https://chat-ia-hazel-five.vercel.app"),
   title: "Revolutx",
   description: "Revolutx - Seu assistente de IA.",
+  manifest: "/manifest.json",
+};
 };
 
 export const viewport = {
