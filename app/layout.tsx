@@ -12,7 +12,6 @@ export const metadata: Metadata = {
   description: "Revolutx - Seu assistente de IA.",
   manifest: "/manifest.json",
 };
-};
 
 export const viewport = {
   maximumScale: 1,
