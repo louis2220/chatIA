@@ -61,7 +61,7 @@ export function AppSidebar({ user }: { user: User | undefined }) {
       method: "DELETE",
     });
 
-    toast.success("All chats deleted");
+    toast.success("Todos os chats deletados");
   };
 
   return (
